@@ -1,0 +1,20 @@
+{
+  "name": "Lege5Online",
+  "version": "0.0.0",
+  "description": "Lege5Online presentation site",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mihaipanait/Lege5Online.git"
+  },
+  "author": "Mihai Panait",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihaipanait/Lege5Online/issues"
+  },
+  "homepage": "https://github.com/mihaipanait/Lege5Online",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
