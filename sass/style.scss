@@ -1,17 +1,17 @@
-$main-color: #6bac36;
+$main-color: #1C6DB8;
 $footer-color: #4a4a4a;
 
 $price-heading-color: #3b99d8; //blue
 $price-heading-shadow-color: #2678bd;
 
-$primary-button-color: #88C25A;//green
-$primary-button-shadow: #699349;
+$primary-button-color: #3b99d8; //blue
+$primary-button-shadow: #2678bd;
 
 $secondary-button-color: #fc6657;//red
 $secondary-button-shadow: #b2483e;
 
-$tertiary-button-color: #3b99d8; //blue
-$tertiary-button-shadow: #2678bd;
+$tertiary-button-color: #88C25A;//green
+$tertiary-button-shadow: #699349;
 
 $quaternary-button-color: #882c9c;//magenta
 $quaternary-button-shadow: #601f6f;
@@ -104,7 +104,7 @@ p {
 		.online-btn{
 			top: 121px;
 			left: 29px;
-			background: url('../images/online-gray.png') no-repeat center center;
+			background: url('../images/online.png') no-repeat center center;
 
 			&:hover{
 				background-image: url('../images/online-over.png');
@@ -114,7 +114,7 @@ p {
 		.cloud-btn{
 			top: -5px;
 			left: 270px;
-			background: url('../images/cloud.png') no-repeat center center;
+			background: url('../images/cloud-gray.png') no-repeat center center;
 			&:hover{
 				background-image: url('../images/cloud-over.png');
 			}
@@ -390,7 +390,7 @@ p {
 				margin-right: 0px;
 				cursor: pointer;
 				color: #FFF;
-				background: #81BE3F;
+				background: #3F81BE;
 				font-size: 40px;
 				font-weight: 300;
 				display: inline-block;
@@ -427,19 +427,19 @@ p {
 				}
 
 				.cautare-btn{
-					background: url('../images/cautare-over.png') no-repeat center center;
+					background: url('../images/cautare.png') no-repeat center center;
 				}
 
 				.comparare-btn{
-					background: url('../images/comparare-over.png') no-repeat center center;
+					background: url('../images/comparare.png') no-repeat center center;
 				}
 
 				.istoric-btn{
-					background: url('../images/istoric-over.png') no-repeat center center;
+					background: url('../images/istoric.png') no-repeat center center;
 				}
 
 				.versionare-btn{
-					background: url('../images/versionare-over.png') no-repeat center center;
+					background: url('../images/versionare.png') no-repeat center center;
 				}
 			}
 
@@ -623,7 +623,7 @@ p {
 				margin-right: 0px;
 				cursor: pointer;
 				color: #FFF;
-				background: #81BE3F;
+				background: #3F81BE;
 				font-size: 40px;
 				font-weight: 300;
 				display: inline-block;
@@ -727,27 +727,27 @@ p {
 	border-color: $secondary-button-shadow;
 }
 
-.panel-heading-tertiary {
-	background-color: $tertiary-button-color;
-	border-color: $tertiary-button-shadow;
+.panel-heading-pricing {
+	background-color: $price-heading-color;
+	border-color: $price-heading-shadow-color;
 }
 
-.panel-heading-tertiary-80 {
+.panel-heading-pricing-80 {
 	background-color: desaturate($price-heading-color, 10%);
 	border-color: desaturate($price-heading-shadow-color, 10%);
 }
 
-.panel-heading-tertiary-60 {
+.panel-heading-pricing-60 {
 	background-color: desaturate($price-heading-color, 20%);
 	border-color: desaturate($price-heading-shadow-color, 20%);
 }
 
-.panel-heading-tertiary-40 {
+.panel-heading-pricing-40 {
 	background-color: desaturate($price-heading-color, 30%);
 	border-color: desaturate($price-heading-shadow-color, 30%);
 }
 
-.panel-heading-tertiary-20 {
+.panel-heading-pricing-20 {
 	background-color: desaturate($price-heading-color, 40%);
 	border-color: desaturate($price-heading-shadow-color, 40%);
 }
