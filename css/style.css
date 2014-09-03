@@ -250,7 +250,7 @@ p {
         margin-right: 0px;
         cursor: pointer;
         color: #FFF;
-        background: #A03FBE;
+        background: #3F81BE;
         font-size: 40px;
         font-weight: 300;
         display: inline-block;
@@ -415,7 +415,7 @@ p {
       margin-right: 0px;
       cursor: pointer;
       color: #FFF;
-      background: #A03FBE;
+      background: #3F81BE;
       font-size: 40px;
       font-weight: 300;
       display: inline-block;
@@ -835,4 +835,10 @@ footer .copyright {
     display: table;
     width: 250px;
     text-align: center;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .services .container .details h4 .image-link {
+    display: table-cell;
+    vertical-align: middle;
+    width: 190px;
+    height: 100px; } }
