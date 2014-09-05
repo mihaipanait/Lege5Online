@@ -181,7 +181,7 @@ app.run(function ($rootScope, $state, $window, $timeout) {
 			smoothScroll.animateScroll( null, '#features-details', options );
 		}
 		if($state.current.url === "pricing"){
-			smoothScroll.animateScroll( null, '#pricing', options );
+			smoothScroll.animateScroll( null, '#pricing-section', options );
 		}
 		if($state.current.url === "pricing-01"){
 			$timeout(function() {
