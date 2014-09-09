@@ -282,7 +282,7 @@ p {
 
 	p {
 		font-size:16px;
-		margin:0 auto 30px;
+		margin:0 auto 12px;
 		line-height:25px;
 	}
 
@@ -331,6 +331,7 @@ p {
 				font-weight:500;
 				border-bottom: white solid 1px;
 				padding-bottom: 20px;
+				min-height: 67px;
 			}
 
 			p {
@@ -378,6 +379,29 @@ p {
 				}
 			}
 
+			.notificari-btn{
+				background: url('../images/notificari.png') no-repeat center center;
+
+				&:hover{
+					background-image: url('../images/notificari-over.png');
+				}
+			}
+
+			.expert-btn{
+				background: url('../images/expert.png') no-repeat center center;
+
+				&:hover{
+					background-image: url('../images/expert-over.png');
+				}
+			}
+
+			.instanta-btn{
+				background: url('../images/instanta.png') no-repeat center center;
+
+				&:hover{
+					background-image: url('../images/instanta-over.png');
+				}
+			}
 		}
 
 		.details{
@@ -445,6 +469,18 @@ p {
 
 				.versionare-btn{
 					background: url('../images/versionare.png') no-repeat center center;
+				}
+
+				.notificari-btn{
+					background: url('../images/notificari.png') no-repeat center center;
+				}
+
+				.expert-btn{
+					background: url('../images/expert.png') no-repeat center center;
+				}
+
+				.instanta-btn{
+					background: url('../images/instanta.png') no-repeat center center;
 				}
 			}
 

@@ -181,7 +181,7 @@ p {
     line-height: 46px; }
   .welcome p {
     font-size: 16px;
-    margin: 0 auto 30px;
+    margin: 0 auto 12px;
     line-height: 25px; }
   .welcome li {
     font-size: 16px;
@@ -215,7 +215,8 @@ p {
         margin: 0px 0 15px;
         font-weight: 500;
         border-bottom: white solid 1px;
-        padding-bottom: 20px; }
+        padding-bottom: 20px;
+        min-height: 67px; }
       .features .container .feature p {
         font-size: 14px;
         line-height: 24px;
@@ -241,6 +242,18 @@ p {
         background: url("../images/versionare.png") no-repeat center center; }
         .features .container .feature .versionare-btn:hover {
           background-image: url("../images/versionare-over.png"); }
+      .features .container .feature .notificari-btn {
+        background: url("../images/notificari.png") no-repeat center center; }
+        .features .container .feature .notificari-btn:hover {
+          background-image: url("../images/notificari-over.png"); }
+      .features .container .feature .expert-btn {
+        background: url("../images/expert.png") no-repeat center center; }
+        .features .container .feature .expert-btn:hover {
+          background-image: url("../images/expert-over.png"); }
+      .features .container .feature .instanta-btn {
+        background: url("../images/instanta.png") no-repeat center center; }
+        .features .container .feature .instanta-btn:hover {
+          background-image: url("../images/instanta-over.png"); }
     .features .container .details {
       padding-top: 25px;
       margin-bottom: 10px; }
@@ -288,6 +301,12 @@ p {
           background: url("../images/istoric.png") no-repeat center center; }
         .features .container .details h4 .versionare-btn {
           background: url("../images/versionare.png") no-repeat center center; }
+        .features .container .details h4 .notificari-btn {
+          background: url("../images/notificari.png") no-repeat center center; }
+        .features .container .details h4 .expert-btn {
+          background: url("../images/expert.png") no-repeat center center; }
+        .features .container .details h4 .instanta-btn {
+          background: url("../images/instanta.png") no-repeat center center; }
       .features .container .details p {
         font-size: 16px;
         line-height: 30px;
