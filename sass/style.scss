@@ -649,6 +649,10 @@ p {
 					min-height: 34px;
 				}
 
+				&.row-last{
+					min-height: 34px;
+				}
+
 				&.big-text{
 					font-size: 16px !important;
 				}
@@ -1256,11 +1260,45 @@ footer{
     }
 }
 
+
 @media (min-width: 1200px) {
     .col-lg-5ths {
         width: 20%;
         float: left;
     }
+}
+
+/* medium ----------- */
+@media (min-width : 992px) and (max-width : 1199px) 
+{
+
+.pricing {
+
+	.panel-default {
+
+		.list-group{
+
+			.list-group-item {
+
+				&.row-one{
+					min-height: 115px;
+				}
+
+				&.row-two{
+					min-height: 108px;
+				}
+
+				&.row-other{
+					min-height: 34px;
+				}
+
+				&.row-last{
+					min-height: 50px;
+				}
+			}
+		}
+	}
+}
 }
 
 @media (max-width: 767px) {
