@@ -222,6 +222,10 @@ p {
         line-height: 24px;
         color: #fff;
         text-align: justify; }
+        .features .container .feature p a {
+          color: #83CAFA; }
+          .features .container .feature p a:hover {
+            color: #67F767; }
       .features .container .feature .image-link {
         display: inline-block;
         width: 100px;
@@ -312,6 +316,10 @@ p {
         line-height: 30px;
         color: #fff;
         text-align: justify; }
+        .features .container .details p a {
+          color: #83CAFA; }
+          .features .container .details p a:hover {
+            color: #67F767; }
       .features .container .details ul li {
         font-size: 16px;
         line-height: 30px;
@@ -802,6 +810,16 @@ footer .copyright {
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #1c6db8; }
+
+/* Mozilla based browsers */
+::-moz-selection {
+  background-color: #8BDB4B;
+  color: #fff; }
+
+/* Works in Safari */
+::selection {
+  background-color: #8BDB4B;
+  color: #fff; }
 
 /* Owl top slider */
 #owl-top-slider .item img {
