@@ -813,6 +813,7 @@ footer .copyright {
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #1c6db8; }
 
+/* selection color */
 /* Mozilla based browsers */
 ::-moz-selection {
   background-color: #8BDB4B;
