@@ -178,7 +178,9 @@ p {
   .welcome h2 {
     font-size: 32px;
     margin-bottom: 15px;
-    line-height: 46px; }
+    line-height: 46px;
+    color: #1c6db8;
+    font-weight: 600; }
   .welcome p {
     font-size: 16px;
     margin: 0 auto 12px;
